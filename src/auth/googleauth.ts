@@ -84,8 +84,11 @@ export interface ADCResponse {
   projectId: string | null;
 }
 
-export interface GoogleAuthOptions<T extends AuthClient = JSONClient> {
-  /**
+
+
+
+
+/**
    * An `AuthClient` to use
    */
   authClient?: T;
